@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/service-rain/pom.xml" />
         <option value="$PROJECT_DIR$/service-sunshine/pom.xml" />
         <option value="$PROJECT_DIR$/service-snow/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
