@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9140936b-c06c-45fd-9f08-1a06dac29e79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-rain/src/main/java/com/smile/rain/annotation/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-rain/src/test/java/com/smile/rain/AnnotationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/smile/zuul/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/test/java/com/smile/zuul/ZuulApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka/target/" />
     <ignored path="$PROJECT_DIR$/eureka2/target/" />
@@ -17,6 +32,7 @@
     <ignored path="$PROJECT_DIR$/service-rain/target/" />
     <ignored path="$PROJECT_DIR$/service-snow/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/zuul/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,32 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-rain/src/main/java/com/smile/rain/annotation/Hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-rain/src/test/java/com/smile/rain/AnnotationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/eureka2/src/main/java/com/smile/eureka/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/eureka/src/main/java/com/smile/eureka/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/eureka1/src/main/resources/application.properties" />
@@ -90,7 +80,6 @@
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config-server/src/main/java/com/smile/configserver/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-rain/pom.xml" />
         <option value="$PROJECT_DIR$/service-rain/src/main/java/com/smile/rain/controller/ConfigController.java" />
         <option value="$PROJECT_DIR$/service-rain/src/main/resources/application.properties" />
@@ -99,6 +88,11 @@
         <option value="$PROJECT_DIR$/service-rain/src/main/java/com/smile/rain/Annotation/Hello.java" />
         <option value="$PROJECT_DIR$/service-rain/src/main/java/com/smile/rain/annotation/Hello.java" />
         <option value="$PROJECT_DIR$/service-rain/src/test/java/com/smile/rain/AnnotationTest.java" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/src/main/java/com/smile/zuul/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -114,7 +108,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service-rain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -142,103 +141,70 @@
             <path>
               <item name="smile" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sunshine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smile" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sunshine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smile" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sunshine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smile" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sunshine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smile" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sunshine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="smile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smile" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sunshine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="rain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smile" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sunshine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
+              <item name="sunshine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smile" type="b2602c69:ProjectViewProjectNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="service-rain" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sunshine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="smile" type="462c0819:PsiDirectoryNode" />
-              <item name="rain" type="462c0819:PsiDirectoryNode" />
+              <item name="sunshine" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,13 +214,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552976381411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552986582301" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -289,7 +256,7 @@
     </option>
     <option name="contentProportion" value="0.15854979" />
   </component>
-  <component name="RunManager" selected="Application.AnnotationTest">
+  <component name="RunManager" selected="Spring Boot.SunshineApplication">
     <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.smile.rain.AnnotationTest" />
       <module name="service-rain" />
@@ -306,32 +273,6 @@
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.smile.configserver.ConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smile.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.smile.eureka.EurekaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka (2)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.smile.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.smile.eureka.EurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -364,21 +305,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.smile.zuul.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.SunshineApplication" />
       <item itemvalue="Spring Boot.ServiceRainApplication" />
       <item itemvalue="Spring Boot.ServiceSnowApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
-      <item itemvalue="Spring Boot.EurekaApplication (1)" />
-      <item itemvalue="Spring Boot.EurekaApplication (2)" />
       <item itemvalue="Application.AnnotationTest" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AnnotationTest" />
-        <item itemvalue="Spring Boot.EurekaApplication (2)" />
-        <item itemvalue="Spring Boot.EurekaApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +345,7 @@
       <workItem from="1552447547099" duration="24540000" />
       <workItem from="1552526303407" duration="2389000" />
       <workItem from="1552612230406" duration="713000" />
-      <workItem from="1552966664733" duration="2281000" />
+      <workItem from="1552966664733" duration="8511000" />
     </task>
     <task id="LOCAL-00001" summary="测试更新">
       <created>1552478775588</created>
@@ -423,11 +368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552479821580</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="111">
+      <created>1552976568867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552976568867</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31540000" />
+    <option name="totallyTimeSpent" value="37770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -460,7 +412,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.21108742" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.27238807" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -474,31 +426,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试更新" />
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka2/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka1/eureka.iml" />
-    <entry file="file://$PROJECT_DIR$/eureka1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka2/eureka.iml" />
-    <entry file="file://$PROJECT_DIR$/eureka1/src/main/java/com/smile/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka2/src/main/java/com/smile/eureka/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -506,44 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/smile/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka1/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="8" column="100" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka2/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="8" column="100" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-sunshine/src/main/java/com/smile/sunshine/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-sunshine/src/main/java/com/smile/sunshine/ServiceSunshineApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,13 +458,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-sunshine/service-sunshine.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-sunshine/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-snow/src/main/java/com/smile/snow/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -660,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-snow/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -715,6 +603,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service-rain/src/test/java/com/smile/rain/AnnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service-rain/src/main/java/com/smile/rain/annotation/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -725,10 +623,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-rain/src/test/java/com/smile/rain/AnnotationTest.java">
+    <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="884">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-sunshine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/smile/zuul/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka1/src/main/java/com/smile/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka1/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/smile/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-sunshine/src/main/java/com/smile/sunshine/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-sunshine/src/main/java/com/smile/sunshine/ServiceSunshineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

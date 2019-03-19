@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-snow/service-snow.iml" filepath="$PROJECT_DIR$/service-snow/service-snow.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-sunshine/service-sunshine.iml" filepath="$PROJECT_DIR$/service-sunshine/service-sunshine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/smile.iml" filepath="$PROJECT_DIR$/.idea/smile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>

@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/service-sunshine/pom.xml" />
         <option value="$PROJECT_DIR$/service-snow/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
       </list>
     </option>
   </component>
